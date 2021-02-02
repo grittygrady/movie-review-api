@@ -17,7 +17,7 @@ app.set('trust proxy', 1);
 const inDev = config.NODE_ENV === 'development';
 
 app.use(cors({
-  origin: inDev ? 'http://localhost:3000' : ['https://vinyl-wishlist.vercel.app', 'https://vinyl-wishlist.herokuapp.com'],
+  origin: 'http://localhost:3000',
   credentials: true,
   preflightContinue: false
 }))
