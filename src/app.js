@@ -4,8 +4,6 @@ const morgan = require('morgan');
 const cors = require('cors');
 const helmet = require('helmet');
 const { NODE_ENV } = require('./config');
-const knex = require('./knex');
-const config = require('./config');
 const reviewRouter = require('./services/review-router');
 
 const app = express();
