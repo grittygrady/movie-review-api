@@ -14,18 +14,9 @@ const morganOption = (NODE_ENV === 'production')
 
 app.set('trust proxy', 1);
 
-const inDev = config.NODE_ENV === 'development';
-
-app.use(cors({
-  origin: 'http://localhost:3000',
-  credentials: true,
-  preflightContinue: false,
-  'Access-Control-Allow-Origin': true
-}))
-
 app.use(morgan(morganOption));
 app.use(helmet());
-
+app.use(cors());
 
 app.use(reviewRouter)
 
