@@ -19,7 +19,8 @@ const inDev = config.NODE_ENV === 'development';
 app.use(cors({
   origin: 'http://localhost:3000',
   credentials: true,
-  preflightContinue: false
+  preflightContinue: false,
+  'Access-Control-Allow-Origin': true
 }))
 
 app.use(morgan(morganOption));
