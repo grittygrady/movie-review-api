@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 module.exports = {
-  database: "movie_review_club",
+  // database: "movie_review_club",
   migrationsDirectory: "migrations",
   driver: "pg",
   connectionString:
