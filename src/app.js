@@ -16,7 +16,7 @@ const morganOption = (NODE_ENV === 'production')
 const inDev = config.NODE_ENV === 'development'
 
 app.use(cors({
-  origin: inDev ? 'http://localhost:3000' : 'https://movie-reviews-client.vercel.app/'
+  origin: inDev ? 'http://localhost:3000' : 'https://movie-reviews-client.vercel.app'
 }))
 
 app.use(morgan(morganOption));
