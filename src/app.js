@@ -18,7 +18,7 @@ app.use(morgan(morganOption));
 app.use(helmet());
 app.use(cors());
 
-app.use(reviewRouter)
+app.use('/api/', reviewRouter)
 
 // app.get('/', (req, res) => {
 //   res.send('Hello, world!');
