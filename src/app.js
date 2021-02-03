@@ -14,9 +14,14 @@ const morganOption = (NODE_ENV === 'production')
 
 app.set('trust proxy', 1);
 
+app.use(cors({
+  origin: 'http://localhost:3000',
+  preflightContinue: false
+}))
+
 app.use(morgan(morganOption));
 app.use(helmet());
-app.use(cors());
+
 
 app.use(reviewRouter)
 
