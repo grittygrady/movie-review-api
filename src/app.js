@@ -14,8 +14,7 @@ const morganOption = (NODE_ENV === 'production')
 
 
 app.use(cors({
-  origin: 'http://localhost:3000',
-  preflightContinue: false
+  origin: 'http://localhost:3000'
 }))
 
 app.use(morgan(morganOption));
