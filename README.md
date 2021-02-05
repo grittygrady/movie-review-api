@@ -1,6 +1,7 @@
 # Movie Review Club
 
 Movie Review Club is an app designed to help users form a "hub" of friends with which to share movie reviews.
+Still a work in progress, authentication to be added soon!
 
 This is the backend for `Movie Review Club`.  A live version of the app can be found live at https://movie-reviews-client.vercel.app/
 
