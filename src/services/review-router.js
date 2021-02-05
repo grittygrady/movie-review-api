@@ -19,7 +19,6 @@ reviewRouter
       .then(reviews => {
         res.json(reviews.map(sanitizedReview))
       })
-      // .catch(next)
   });
 
 reviewRouter

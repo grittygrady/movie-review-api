@@ -5,4 +5,4 @@ module.exports = {
         process.env.DATABASE_URL || 'postgresql://postgres@localhost/movie_review_club',
     TEST_DATABASE_URL: 
         process.env.TEST_DATABASE_URL || 'postgresql://postgres@localhost/movie_review_club_test'
-}
+};
