@@ -4,7 +4,7 @@ Show the details of a single review.
 
 **URL** : `/api/reviews/:pk/`
 
-**URL Parameters** : `pk=[integer]` where `pk` is the ID of the review on the
+**URL Parameters** : `pk=[varchar]` where `pk` is the ID of the review on the
 server.
 
 **Method** : `GET`
