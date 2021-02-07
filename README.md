@@ -59,3 +59,11 @@ Now, run the command above again for the test database as well.
 
 7. Run the tests - `npm t`
 8. Start the app - `npm run dev`
+
+## Endpoints
+
+* [All Reviews](documentation/allreviews.md) : `GET /api/`
+
+* [Add Review](documentation/addreview.md) : `GET /api/user/`
+
+* [Review Details](documentation/reviews.md) : `GET /api/reviews/:id`
