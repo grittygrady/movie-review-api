@@ -66,4 +66,4 @@ Now, run the command above again for the test database as well.
 
 * [Add Review](documentation/addreview.md) : `GET /api/user/`
 
-* [Review Details](documentation/reviews.md) : `GET /api/reviews/:id`
+* [Review Details](documentation/reviewdetail.md) : `GET /api/reviews/:id`
